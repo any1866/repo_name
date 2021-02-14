@@ -1,0 +1,843 @@
+@font-face {
+    font-family: 'Prata Regular';
+    src: url(fonts/Prata-Regular.woff)format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Prata Regular';
+    }
+    a {
+        text-decoration: none;
+    }
+
+    @media (min-width: 961px){
+    
+
+    .first_heading{
+        position: absolute;
+        width: 375px;
+        height: 94px;
+        left: 121px;
+        top: 92px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: left;
+        color: #000000;
+
+    }
+    .second_heading{
+        position: absolute;
+        width: 376px;
+        height: 94px;
+        left: 121px;
+        top: 210px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 65px;
+        color: #18DB7D;
+
+    }
+    .third_heading{
+        position: absolute;
+        width: 487px;
+        height: 94px;
+        left: 121px;
+        top: 358px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        color: #000000;
+    }
+    .first_description{
+        position: absolute;
+        width: 487px;
+        height: 94px;
+        left: 121px;
+        top: 482px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .time{
+        position: absolute;
+        width: 317px;
+        height: 65px;
+        left: 1123px;
+        top: 127px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 87px;
+        text-align: center;
+        color: #18DB7D;
+        text-shadow: 20px 20px 100px #18DB7D;
+    }
+    .photo{
+        position: absolute;
+        max-width: 604px;
+        height: auto;
+        left: 734px;
+        top: 92px;
+        
+    }
+    .icons{
+        position: absolute;
+        width: 200px;
+        height: 54px;
+        left: 121px;
+        top: 922px;
+
+        
+
+    }
+    .line{
+        position: absolute;
+        width: 588px;
+        height: 41px;
+        left: 734px;
+        top: 929px;
+
+    }
+   
+    .first_form input{
+        position: absolute;
+        background-color: white;
+        width: 306px;
+        height: 68px;
+        left: 122px;
+        top: 606px;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+    
+        border: 1px solid #18DB7D;
+    }
+    .first_form button{
+        position: absolute;
+       
+        
+        background: #000000;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+     
+        color:#18DB7D;
+        width: 224px;
+        height: 68px;
+        left: 442px;
+        top: 606px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+  
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }  
+    .first_form input::placeholder{
+        position: absolute;
+        width: 208px;
+        height: 68px;
+        top: 606px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #44E497;
+        padding-left:35px;
+
+    }
+    .first_form button::placeholder{
+        position: absolute;
+        width: 224px;
+        height: 68px;
+        left: 442px;
+        top: 606px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #18DB7D;
+        
+     
+
+    }
+    
+    .second_form input{
+        position: absolute;
+        width: 304px;
+        height: 68px;
+        left: 122px;
+        top: 703px;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+        background-color: white;
+        padding-left:35px;
+        padding-right:35px;
+    }
+
+    .second_form input::placeholder{
+        position: absolute;
+        width: 209px;
+        height: 68px;
+        left: 121px;
+        top: 703px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: #000000;
+        padding-left:35px;
+      
+
+    }
+    .third_form input{
+        position: absolute;
+        width: 223px;
+        height: 68px;
+        left: 443px;
+        top: 703px;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+        background-color: white;
+        padding-left:35px;
+        padding-right:35px;
+    }
+    .third_form input::placeholder{
+        position: absolute;
+        width: 224px;
+        height: 68px;
+        left: 440px;
+        top: 703px;
+        
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+    .forth_form input{
+        position: absolute;
+        width: 306px;
+        height: 68px;
+        left: 122px;
+        top: 800px;
+        border: 1px solid rgba(0, 0, 0, 0.53);
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .forth_form input::placeholder{
+        position: absolute;
+        width: 209px;
+        height: 68px;
+        left: 121px;
+        top: 800px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.53);
+        padding-left:35px;
+
+    }
+    .forth_form button{
+        position: absolute;
+        width: 224px;
+        height: 68px;
+        left: 442px;
+        top: 800px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+       
+        align-items: center;
+        cursor: pointer;
+        border:none;
+        color: #000000;
+        background-color:#18DB7D;
+    }
+    
+}
+@media (min-width: 641px) and (max-width: 960px)
+{
+    .first_heading{
+        position: absolute;
+        width: 299px;
+        height: 54px;
+        left: 50px;
+        top: 82px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        color: #000000;
+        
+
+    }
+    .second_heading{
+        position: absolute;
+        width: 300px;
+        height: 73px;
+        left: 66px;
+        top: 183px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        color: #18DB7D;
+    }
+    .third_heading{
+        position: absolute;
+        width: 389px;
+        height: 72px;
+        left: 66px;
+        top: 289px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+    }
+    .first_description{
+        position: absolute;
+        width: 389px;
+        height: 73px;
+        left: 66px;
+        top: 367px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+
+    }
+    .time{
+        position: absolute;
+        width: 244px;
+        height: 81px;
+        left: 802px;
+        top: 130px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        color: #18DB7D;
+        text-shadow: 20px 20px 100px #18DB7D;
+    }
+    .photo{
+        position: absolute;
+        max-width: 425px;
+  height: auto;
+        left: 521px;
+        top: 84px;
+       margin-bottom: 130px;
+    }
+    .icons{
+        position: absolute;
+        width: 159.77px;
+        height: 41.71px;
+        left: 77px;
+        top: 702px;
+        display: flex;
+
+    }
+    .line{
+        position: absolute;
+        width: 425px;
+        height: 30px;
+        left: 521px;
+        top: 702px;
+
+
+    }
+   
+    .first_form input{
+        position: absolute;
+        width: 231.75px;
+        height: 49px;
+        left: 66px;
+        top: 473px;
+        border: 1px solid #44E497;
+        box-sizing: border-box;
+
+    }
+    .first_form button{
+        position: absolute;
+       
+        
+        background: #000000;
+        position: absolute;
+        width: 167.55px;
+        height: 49px;
+        left: 310.45px;
+        top: 473px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        color: #44E497;
+        cursor: pointer;
+    }  
+    .first_form input::placeholder{
+        position: absolute;
+        width: 169.65px;
+        height: 49px;
+        left: 75.26px;
+        top: 473px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #44E497;
+        padding-left:35px;
+
+    }
+    .first_form button::placeholder{
+        position: absolute;
+        width: 167.55px;
+        height: 49px;
+        left: 310.45px;
+        top: 473px;
+        
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+      
+        align-items: center;
+        text-align: center;
+        
+        color: #44E497;
+        
+     
+
+    }
+    
+    .second_form input{
+        position: absolute;
+        width: 231.32px;
+        height: 49px;
+        left: 66px;
+        top: 543px;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+        padding-left:35px;
+        padding-right:35px;
+    }
+
+    .second_form input::placeholder{
+        position: absolute;
+        width: 125px;
+        height: 49px;
+        left: 66px;
+        top: 544px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+     
+        align-items: center;
+        text-align: left;
+        color: #000000;
+        padding-left:35px;
+        padding-right:35px;
+
+    }
+    .third_form input{
+        position: absolute;
+        width: 167px;
+        height: 49px;
+        left: 311px;
+        top: 543px;
+        border: 1px solid #18DB7D;
+        box-sizing: border-box;
+        background-color: white;
+        padding-left:35px;
+        padding-right:35px;
+    }
+    .third_form input::placeholder{
+        position: absolute;
+        width: 169.34px;
+        height: 49px;
+        left: 308px;
+        top: 543px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        text-align: left;
+        color: #000000;
+    }
+    .forth_form input{
+        position: absolute;
+        width: 231.89px;
+        height: 49px;
+        left: 66px;
+        top: 614px;
+        border: 1px solid rgba(0, 0, 0, 0.53);
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .forth_form input::placeholder{
+        position: absolute;
+        width: 171px;
+        height: 49px;
+        left: 66px;
+        top: 614px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.53);
+        padding-left:35px;
+
+    }
+    .forth_form button{
+        position: absolute;
+        width: 167.82px;
+        height: 49px;
+        left: 310.18px;
+        top: 614px;
+        cursor: pointer;
+        border:none;
+        color: #000000;
+        background-color:#18DB7D;
+    }
+}
+@media (max-width: 640px)
+{
+    .first_heading{
+        position: absolute;
+        width: 414px;
+        height: 54px;
+        left: 1px;
+        top: 37px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        color: #000000;
+
+        
+
+    }
+    .second_heading{
+        position: absolute;
+        width: 414px;
+        height: 39px;
+        left: 1px;
+        top: 75px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #18DB7D;
+
+
+
+    }
+    .third_heading{
+        position: absolute;
+        width: 415px;
+        height: 38px;
+        left: 0px;
+        top: 114px;
+        
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        
+        color: #000000;
+        
+    }
+    .first_description{
+        position: absolute;
+        width: 346px;
+        height: 73px;
+        left: 34px;
+        top: 141px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+
+
+
+    }
+    .time{
+        position: absolute;
+        width: 178px;
+        height: 54px;
+        left: 232px;
+        top: 223px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        color: #18DB7D;
+        text-shadow: 20px 20px 100px #18DB7D;
+    }
+    .photo{
+        position: absolute;
+        width: 269px;
+        max-height: 267px;
+        left: 72px;
+        top: 214px;
+    }
+    .icons{
+        position: absolute;
+        width: 132px;
+        height: 37px;
+        left: 145px;
+        top: 843px;
+
+
+    }
+    .line{
+        position: absolute;
+        width: 266px;
+        height: 20px;
+        left: 72px;
+        top: 504px;
+
+
+    }
+   
+    .first_form input{
+        position: absolute;
+        width: 267px;
+        height: 46px;
+        left: 74px;
+        top: 552px;
+
+    }
+    .first_form button{
+        position: absolute;
+       
+        
+        background: #000000;
+     
+        width: 268px;
+        height: 46px;
+        left: 74px;
+        top: 609px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+       
+        align-items: center;
+        text-align: center;
+        color: #44E497;
+        cursor: pointer;
+    }  
+    .first_form input::placeholder{
+        position: absolute;
+        width: 267px;
+        height: 46px;
+        left: 74px;
+        top: 552px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #44E497;
+
+    }
+    .first_form button::placeholder{
+        position: absolute;
+        width: 268px;
+        height: 46px;
+        left: 74px;
+        top: 609px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+  
+        align-items: center;
+        text-align: center;
+        color: #44E497;
+        
+     
+
+    }
+    
+    .second_form input{
+        position: absolute;
+        width: 124px;
+        height: 46px;
+        left: 74px;
+        top: 666px;
+        border: 1px solid #44E497;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .second_form input::placeholder{
+        position: absolute;
+        width: 104px;
+        height: 46px;
+        left: 74px;
+        top: 666px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+  
+        align-items: center;
+      
+        color: #000000;
+
+
+     
+
+    }
+    .third_form input{
+        position: absolute;
+        width: 124px;
+        height: 46px;
+        left: 217px;
+        top: 666px;
+        border: 1px solid #44E497;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .third_form input::placeholder{
+        position: absolute;
+        width: 104px;
+        height: 46px;
+        left: 217px;
+        top: 666px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    .forth_form input{
+        position: absolute;
+        width: 268px;
+        height: 46px;
+        left: 74px;
+        top: 723px;
+        
+        background-color: white;
+    }
+    .forth_form input::placeholder{
+        position: absolute;
+        width: 268px;
+        height: 46px;
+        left: 74px;
+        top: 723px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.53);
+
+
+    }
+    .forth_form button{
+        position: absolute;
+        width: 268px;
+        height: 46px;
+        left: 74px;
+        top: 780px;
+        
+        background: #18DB7D;
+        border: 1px solid #44E497;
+        box-sizing: border-box;
+        
+        color: #000000;
+      
+    }
+}
